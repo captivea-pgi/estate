@@ -7,6 +7,7 @@
     'description': """
         This is a test module for real estate management
         """,
+    'category': 'Training',
     'depends': [
         'base',
     ]
