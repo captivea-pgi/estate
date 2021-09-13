@@ -6,4 +6,4 @@ class RealEstate(models.Model):
     _name = "estate.property"
     _description = "Real estate management"
 
-    name = fields.char()
+    name = fields.Char()
