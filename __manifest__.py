@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 {
-    'name': 'CRM',
+    'name': 'estate',
     'summary': """Test module for real estate management""",
     'description': """
         This is a test module for real estate management
