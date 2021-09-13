@@ -27,4 +27,4 @@ class RealEstate(models.Model):
             ('west','West')
         ]
     )
-    active =  fields.Boolean(string='Active', default=True)
+
