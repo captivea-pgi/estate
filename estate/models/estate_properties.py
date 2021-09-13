@@ -28,16 +28,3 @@ class RealEstate(models.Model):
         ]
     )
     active =  fields.Boolean(string='Active', default=True)
-    state = fields.Selection(
-        string='Type',
-        selection=[
-            ('new','New'),
-            ('offer received','Offer Received'),
-            ('offer accepted','Offer Accepted'),
-            ('sold','Sold'),
-            ('canceled','Canceled')
-        ],
-        required=True,
-        copy=False,
-        default="New"
-    )
